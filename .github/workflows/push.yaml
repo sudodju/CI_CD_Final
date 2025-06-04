@@ -1,4 +1,4 @@
-name: pipeline_for_CICD_lesson
+name: CICD_lesson_pipeline
 on: push
 jobs:
   test:
@@ -13,8 +13,3 @@ jobs:
 
       - name: Run Unit Tests
         run: GOOS=linux GOARCH=amd64 go test
-        
-
-      
-
-
